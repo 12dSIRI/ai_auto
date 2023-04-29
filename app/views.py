@@ -7,7 +7,7 @@ from werkzeug.utils import secure_filename
 import numpy as np
 from keras.utils import load_img, img_to_array
 from keras.models import load_model
-from PIL import Image
+#from PIL import Image
 
 model_s = load_model("app/static/model/mnist.h5")
 path = ""; secure_files = []
